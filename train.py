@@ -58,7 +58,7 @@ def main():
     parser.add_argument('--pre_path', type=str, default='',help="pretrain model path")
 
     parser.add_argument('--local_ep', type=int, default=1, help="the number of local epochs: E")
-    parser.add_argument('--epochs', type=int, default=2000, help="the number of global epochs: G")
+    parser.add_argument('--epochs', type=int, default=200, help="the number of global epochs: G")
     parser.add_argument('--gpu', type=int, default=0, help="GPU ID, -1 for CPU")
     parser.add_argument('--verbose', action='store_true', help='verbose print')
     parser.add_argument('--lr', type=float, default=0.0001, help="learning rate")
@@ -290,7 +290,7 @@ def main():
             f_test = open(result_dir + '/result.txt', 'a')
 
             print('Epoch', epoch)
-            f_test.write('Epoch '+str(epoch)+'\n')
+            f_test.write('\n'+'Epoch '+str(epoch)+'\n')
 
             print('------------------------Dice------------------------')
             print(' initial :', np.mean(dice_list0), np.std(dice_list0))
