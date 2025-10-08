@@ -4,6 +4,8 @@ This is a segmentation-with-registration framework developed for MediaLab, train
 # 数据集下载
 链接：https://drive.google.com/file/d/1hn1mNtFxTqGk_LNJ5wGTyvO5gSLySpsJ/view?usp=sharing
 
+Atlas下载：https://drive.google.com/file/d/1IEa3KT-o8yqXWNyQYbqzU9UboaWyq06V/view?usp=sharing
+
 # nii数据可视化软件：ITK-SNAP
 ![image](https://github.com/JiaWang0704/SegRegBase4MediaLab/blob/main/img/itk.jpg)
 
